@@ -1,0 +1,20 @@
+[
+    {
+        "ruleset_name": "dns_private_resolver_rule_1",
+        "vnet_links": {"v1":false, "v1dot2":false},
+        "metadata": {},
+        "rules": [
+            {
+                "tld":  "abc.test.lan",
+                "rule_state":   true,
+                "target_dns_servers":   [
+                    {
+                        "ip_address": "10.10.0.1",
+                        "port": 53
+                    }
+                ],
+                "metadata": {}
+            }
+        ]
+    }
+]
