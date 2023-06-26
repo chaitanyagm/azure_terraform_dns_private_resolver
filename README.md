@@ -1,0 +1,1 @@
+# azure_terraform_dns_private_resolver
